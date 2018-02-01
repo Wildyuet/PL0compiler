@@ -1,0 +1,18 @@
+program main;
+const a := 1,b := 2,c := 3
+var re,e,f
+procedure sub();
+  begin
+    read (e,f);
+    if e > f 
+      then re := a 
+    else if e = f 
+      then re := b 
+    else 
+      re := c;
+    write(re)
+end
+
+begin
+  call sub()
+end
